@@ -6,7 +6,9 @@ The demo makes use of [react-native-webview](https://github.com/react-native-web
 
 ## Step 1: Luciditi pre-requisites
 
-The demo application has already been configured with the necessary permissions to run on Android and iOS. However, when you integrate this example into your own application, you will need to ensure that you have the following permissions set:
+During a Digital Id process Luciditi may need access to the device camera in order to capture a user selfie and/or Id document photo.
+
+The demo application has already been configured with the necessary permissions to access the camera on Android and iOS. However, when you integrate this example into your own application, you will need to ensure that you have the following permissions set:
 
 ### Android - `AndroidManifest.xml`
 
@@ -22,7 +24,7 @@ The demo application has already been configured with the necessary permissions 
 <string>$(PRODUCT_NAME) needs access to your camera to take photos to verify your identity.</string>
 ```
 
-## Step 2: Running the demo
+## Step 2: Set up your demo
 
 Before you can run the demo you will need to setup the WebView with a url that can launch the Luciditi verification process.
 
