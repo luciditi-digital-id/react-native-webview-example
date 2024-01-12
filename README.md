@@ -15,6 +15,6 @@ Before you can run the demo you will need to setup the WebView with a url that c
 
 To learn more about Luciditi, take a look at the following resources:
 
-- [Luciditi](https://luciditi.co.uk/developer) - learn more about Luciditi.
 - [Luciditi Developer](https://luciditi.co.uk/developer) - an **overview** of Luciditi developer options.
-- [Luciditi JS SDK](https://www.npmjs.com/package/@arissian/luciditi-sdk) - JavaScript SDK for Luciditi.
+- [Luciditi JS SDK](https://www.npmjs.com/package/@arissian/luciditi-sdk) - NPM package for Luciditi's JavaScript SDK.
+- [Luciditi](https://luciditi.co.uk) - learn more about Luciditi.
