@@ -11,15 +11,15 @@ The demo application has already been configured with the necessary permissions 
 ### Android - `AndroidManifest.xml`
 
 ```xml
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.INTERNET" />
 ```
 
 ### iOS - `info.plist`
 
 ```xml
-	<key>NSCameraUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs access to your camera to take photos to verify your identity.</string>
+<key>NSCameraUsageDescription</key>
+<string>$(PRODUCT_NAME) needs access to your camera to take photos to verify your identity.</string>
 ```
 
 ## Step 2: Running the demo
