@@ -34,39 +34,39 @@ function App(): React.JSX.Element {
     // WebView when the user has completed the verification process (lucidtiVerificationComplete)
     const getMessageInfo = () => {
       switch (data) {
-        case 'lucidtiVerificationStarted': // This indicates that the verification process has started
+        case 'luciditiVerificationStarted': // This indicates that the verification process has started
           return 'verification process has started';
-        case 'lucidtiVerificationComplete': // This indicates that the user has completed the verification process
+        case 'luciditiVerificationComplete': // This indicates that the user has completed the verification process
           return 'user has completed verification';
-        case 'lucidtiVerificationError': // This indicates that the user has encountered an error during the verification process
+        case 'luciditiVerificationError': // This indicates that the user has encountered an error during the verification process
           return 'user has encountered an error during verification';
-        case 'lucidtiVerificationAborted': // This indicates that the user has cancelled the verification process
+        case 'luciditiVerificationAborted': // This indicates that the user has cancelled the verification process
           return 'verification aborted due to user cancelling or session timeout';
-        case 'lucidtiVerificationTakingSelfie': // This indicates that the user has been asked to take a selfie
+        case 'luciditiVerificationTakingSelfie': // This indicates that the user has been asked to take a selfie
           return 'user has been asked to take a selfie';
-        case 'lucidtiVerificationRetakingSelfie': // This indicates that the user has been asked to re-try taking a selfie
+        case 'luciditiVerificationRetakingSelfie': // This indicates that the user has been asked to re-try taking a selfie
           return 'user has been asked to re-try taking a selfie';
-        case 'lucidtiVerificationTakingPassportPhoto': // This indicates that the user has been asked to take a passport photo
+        case 'luciditiVerificationTakingPassportPhoto': // This indicates that the user has been asked to take a passport photo
           return 'user has been asked to take a passport photo';
-        case 'lucidtiVerificationRetakingPassportPhoto': // This indicates that the user has been asked to re-try taking a passport photo
+        case 'luciditiVerificationRetakingPassportPhoto': // This indicates that the user has been asked to re-try taking a passport photo
           return 'user has been asked to re-try taking a passport photo';
-        case 'lucidtiVerificationTakingIdDocumentPhoto': // This indicates that the user has been asked to take an id document photo
+        case 'luciditiVerificationTakingIdDocumentPhoto': // This indicates that the user has been asked to take an id document photo
           return 'user has been asked to take an id document photo';
-        case 'lucidtiVerificationRetakingIdDocumentPhoto': // This indicates that the user has been asked to re-try taking an id document photo
+        case 'luciditiVerificationRetakingIdDocumentPhoto': // This indicates that the user has been asked to re-try taking an id document photo
           return 'user has been asked to re-try taking an id document photo';
-        case 'lucidtiVerificationValidating': // This indicates that the Luciditi SDK is validating the user supplied data
+        case 'luciditiVerificationValidating': // This indicates that the Luciditi SDK is validating the user supplied data
           return 'luciditi sdk is validating user suppplied data';
-        case 'lucidtiVerificationUploading': // This indicates that the Luciditi SDK is uploading the user supplied data
+        case 'luciditiVerificationUploading': // This indicates that the Luciditi SDK is uploading the user supplied data
           return 'luciditi sdk is uploading validated user supplied data';
-        case 'lucidtiVerificationVerifySelfie': // This indicates that the Luciditi SDK is verifying the user supplied selfie
+        case 'luciditiVerificationVerifySelfie': // This indicates that the Luciditi SDK is verifying the user supplied selfie
           return 'luciditi sdk is verifying user supplied selfie';
-        case 'lucidtiVerificationVerifyPassport': // This indicates that the Luciditi SDK is verifying the user supplied passport
+        case 'luciditiVerificationVerifyPassport': // This indicates that the Luciditi SDK is verifying the user supplied passport
           return 'luciditi sdk is verifying user supplied passport';
-        case 'lucidtiVerificationAgeEstimationSuccessful': // This indicates that the user has successfully completed the age estimation process
+        case 'luciditiVerificationAgeEstimationSuccessful': // This indicates that the user has successfully completed the age estimation process
           return 'user has successfully completed an age estimation process';
-        case 'lucidtiVerificationFailed': // This indicates that the verification process failed to start due to an error
+        case 'luciditiVerificationFailed': // This indicates that the verification process failed to start due to an error
           return 'luciditi sdk failed to start due to an error';
-        case 'lucidtiVerificationWaitingForInvite': // This indicates that the verification process is waiting for the user to respond to an invitation in the Luciditi app
+        case 'luciditiVerificationWaitingForInvite': // This indicates that the verification process is waiting for the user to respond to an invitation in the Luciditi app
           return 'luciditi sdk is waiting for a user to respond to an invitation requesting the required verification data';
         default:
           return data;
